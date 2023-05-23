@@ -1,0 +1,24 @@
+<div className='col-10 col-md-4 mt-5  '>
+    <div className='card p-2  h-100'>
+      <div className='d-flex align-itmes-center'>
+      <div className='image'><img src={curr.image} className='rounded' width="155" alt='Logo' /></div>
+      <div className='ml-3 w-100'>
+        <h4 className=' textleft mb-0'>{curr.title.slice(0,30)+"...."}</h4>
+        <span className='textLeft'></span>
+        <div className='p-2 mt-2 bg-danger d-flex  justify-content-between rounded text-white stats'>
+          <div className='d-flex flex-column'>
+            <span className='articles'>Rating</span><span className='number1'>{curr.rating.rate}</span>
+          </div>
+          <div className='d-flex flex-column'>
+            <span className='articles'>Price</span><span className='number2'>{curr.price}</span>
+          </div>
+          <div className='d-flex flex-column'>
+            <span className='articles'>Category</span><span className='number3'>{curr.category}</span>
+          </div>
+        </div>
+      </div>
+      </div>
+         <h1><button className='btn btn-primary '>Buy Now</button></h1>
+    </div>
+
+</div>

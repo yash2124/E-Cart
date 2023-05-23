@@ -26,6 +26,7 @@ function Details() {
         </div>
         <div>
           
+
           <div className="det-name">
             <span className="det-heading">{apiData.title}</span>
           </div>
